@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="header-navidation">
+                <a href="./index.html" class="logo header-logo link">Pomodoro</span></a>
+                <ul class="header-list list">
+                    <li class="header-item"><a href="./index.html" class="header-link link">Главная</a></li>
+                    <li class="header-item"><a href="./menu.html" class="header-link link link-after">Меню</a></li>
+                </ul>
+            </nav>
+            <address class="header-address">
+                <ul class="address-list list">
+                    <li class="address-item"><a href="mailto:pomodoro@gmail.com" class="address-link link">pomodoro@gmail.com</a></li>
+                    <li class="address-item"><a href="tel:+48789900630" class="address-link link">+48 789 900 630</a></li>
+                </ul>
+            </address>
+            <button type="button" class="menu-open-btn" data-menu-open>
+                <svg class="menu-icon" width="32" height="22">
+                    <use href="./images/icons.svg#menu"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="mob-menu is-hidden" data-menu>
+            <div>
+                <button type="button" class="menu-close-btn" data-menu-close>
+                    <svg class="menu-icon" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close-black-18dp-2-1-1"></use>
+                    </svg>
+                </button>
+                <ul class="mob-menu-list list">
+                        <li class="mob-menu-list-item"><a href="./index.html" class="mob-menu-link link">Главная</a></li>
+                        <li class="mob-menu-list-item"><a href="./menu.html" class="mob-menu-link link menu-link-after">Меню</a></li>
+                </ul>
+            </div>
+            <div>
+                <address class="mob-menu-address">
+                    <ul class="mob-menu-address-list list">
+                        <li class="mob-menu-address-item"><a href="tel:+48789900630" class="mob-menu-address-link-t link">+48 789 900 630</a></li>
+                        <li class="mob-menu-address-item"><a href="mailto:pomodoro@gmail.com" class="mob-menu-address-link-e link">pomodoro@gmail.com</a></li>
+                    </ul>
+                </address>
+                <ul class="mob-soc-list list">
+                    <li class="mob-menu-soc-item">
+                        <a href="" class="mob-menu-soc-link link" target="_blank" rel="noopener noreferrer">
+                            <svg class="mob-menu-soc-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram-2"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-menu-soc-item">
+                        <a href="" class="mob-menu-soc-link link" target="_blank" rel="noopener noreferrer">
+                            <svg class="mob-menu-soc-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-menu-soc-item">
+                        <a href="" class="mob-menu-soc-link link" target="_blank" rel="noopener noreferrer">
+                            <svg class="mob-menu-soc-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-menu-soc-item">
+                        <a href="" class="mob-menu-soc-link link" target="_blank" rel="noopener noreferrer">
+                            <svg class="mob-menu-soc-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="menu">
+            <div class="container">
+                <h1 class="burgers-title">Наши фирменные бургеры</h1>
+                <ul class="burgers list">
+                    <li class="burgers-item">
+                        <a href="" class="burgers-item-link link">
+                            <div class="burgers-cover-wrap">
+                                <img src="./images/elc.jpg" alt="Banking App Interface Concept" width="360" height="360">
+                                <p class="burgers-cover-text">Классическое сочетание сочной говяжьей котлеты, под талым сыром чеддер, ломтиками хрустящего бекона, маринованными
+                                огурцами, жареным луком и соусом, 300г.</p>
+                            </div>
+                            <div class="burgers-item-text">
+                                <h2 class="burger">Бургер Эль Классико</h2>
+                                <p class=burger-text>Сочный классический бургер с котлетой из говядины, беконом и сыром.</p>
+                                <p class="price">23 zl</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="burgers-item">
+                        <a href="" class="burgers-item-link link">
+                            <div class="burgers-cover-wrap">
+                                <img src="./images/escobar.jpg" alt="Banking App Interface Concept" width="360" height="360">
+                                <p class="burgers-cover-text">Пабло Эскобар – самый знаменитый контрабандист в мире. В 80-е годы благодаря контрабанде он входил в топ 10 самых
+                                богатых людей в мире. Мы просто не могли себе позволить оставить без внимания такого мощного и колоритного парня как Дон
+                                Пабло. Но единственное сходство нашей контрабанды с той, которой занимался Эскобар в том, что она тоже вызывает
+                                зависимость! И так, бургер Пабло Эскобар – это очень сочный и сытный бургер с двумя поджаренными на гриле котлетами из
+                                отборной говядины под соусом BBQ, ломтиками пикантного чеддера, вялеными помидорами, маринованным синим луком, огурцами
+                                и заправкой из белого. 400г</p>
+                            </div>
+                            <div class="burgers-item-text">
+                                <h2 class="burger">Бургер Пабло Эскобар</h2>
+                                <p class=burger-text>Бургер с двумя сочными говяжьими котлетами, ломтиками сыра чеддер, вялеными помидорами, свежими огурцами, кольцами
+                                маринованного лука, белым соусом и соусом BBQ.</p>
+                                <p class="price">26 zl</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="burgers-item">
+                        <a href="" class="burgers-item-link link">
+                            <div class="burgers-cover-wrap">
+                                <img src="./images/baconator.jpg" alt="Banking App Interface Concept" width="360" height="360">
+                                <p class="burgers-cover-text">Беконный монстр! Много, нет, очень много самого мясного и хрустящего бекона в поджаренной булочке, вместе с котлетой из
+                                рубленой говядины, английским сыром чеддер, маринованными огурцами, синим луком и горчичной заправкой, 300г.</p>
+                            </div>
+                            <div class="burgers-item-text">
+                                <h2 class="burger">Бургер Беконатор</h2>
+                                <p class=burger-text>Беконный бургер с большой говяжьей котлетой.</p>
+                                <p class="price">25 zl</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="burgers-item">
+                        <a href="" class="burgers-item-link link">
+                            <div class="burgers-cover-wrap">
+                                <img src="./images/b3t_1_1.jpg" alt="Banking App Interface Concept" width="360" height="360">
+                                <p class="burgers-cover-text">Вкус жареного камамбера в хрустящей панировке панко и клюквенная кислинка, пикантная горгонзола и сочная груша, еще
+                                чеддер, томаты и руккола. Вегетарианский бургер. Но если тебе хочется добавить мясок - это, конечно, up to you! 340г</p>
+                            </div>
+                            <div class="burgers-item-text">
+                                <h2 class="burger">Бургер с горгонзолой и камамбером</h2>
+                                <p class=burger-text>Вегетарианский бургер. Горгонзола, камамбер, чеддер, груша, томаты, руккола, клюквенный соус. 340г</p>
+                                <p class="price">36 zl</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="burgers-item">
+                        <a href="" class="burgers-item-link link">
+                            <div class="burgers-cover-wrap">
+                                <img src="./images/bec2.jpg" alt="Banking App Interface Concept" width="360" height="360">
+                                <p class="burgers-cover-text">Продолжение легенды... Бургер Беконатор 2! На этот раз наш герой еще лучше подготовлен для борьбы с голодом! Он стал
+                                вдвое больше! Встречайте: две сочные котлеты из нежной говядины, сыр чеддер, свежий синий лук, огурцы специального
+                                маринада, красный соус, горчица по американскому рецепту и, конечно же, бекон! 450г.</p>
+                            </div>
+                            <div class="burgers-item-text">
+                                <h2 class="burger">Бургер Беконатор 2</h2>
+                                <p class=burger-text>Гигант-бургер, много бекона, две котлеты из отборной телятины, чеддер, овощи.</p>
+                                <p class="price">37 zl</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="burgers-item">
+                        <a href="" class="burgers-item-link link">
+                            <div class="burgers-cover-wrap">
+                                <img src="./images/b3t.jpg" alt="Banking App Interface Concept" width="360" height="360">
+                                <p class="burgers-cover-text">Ужасно огромный бургер! Продолжение легенды! Барабанная дробь.... Беконатор 3! 550г.</p>
+                            </div>
+                            <div class="burgers-item-text">
+                                <h2 class="burger">Бургер Беконатор 3</h2>
+                                <p class=burger-text>Супермегагигант-бургер, много бекона, три котлета из отборной телятины, чеддер, овощи.</p>
+                                <p class="price">48 zl</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="burgers-item">
+                        <a href="" class="burgers-item-link link">
+                            <div class="burgers-cover-wrap">
+                                <img src="./images/b3t_1.jpg" alt="Banking App Interface Concept" width="360" height="360">
+                                <p class="burgers-cover-text">Розмащуємо рублену, соковиту яловичину по грилю, щедро посипаємо цибулею. Перевертаємо котлети на інший бік. Накриваємо
+                                сиром чеддер. Добре підсмажуємо. Таким чином, цибуля готується у яловичому соку. Додаємо мариновані огірки та
+                                заправляємо соусами. 310г.</p>
+                            </div>
+                            <div class="burgers-item-text">
+                                <h2 class="burger">Бургер Оклахома стайл</h2>
+                                <p class=burger-text>Это бургер о хорошенько зажаренной говядине с луком, а также о возможности добавить к 5 котлетам по желанию!</p>
+                                <p class="price">25 zl</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="burgers-item">
+                        <a href="" class="burgers-item-link link">
+                            <div class="burgers-cover-wrap">
+                                <img src="./images/bkh_2.jpg" alt="Banking App Interface Concept" width="360" height="360">
+                                <p class="burgers-cover-text">Огромный бургер! Мега Бургер! Бургер чемпион! Этот самый мощный бургер одним своим видом вызывает восхищение, подобное
+                                тому, что чувствуешь, глядя на самый большой в мире небоскреб – Бурдж-Халифа! Именно так и назван наш великан среди
+                                бургеров! Больше килограмма самой сладкой говядины, бекон, расплавленный сыр чеддер, хрустящие маринованные огурцы,
+                                пикантный синий лук, обжаренный до золота белый лук, американская горчица, соус «BBQ» и булка-владычица всех булок в
+                                мире! Не вздумайте заказывать этот бургер меньше чем на четырех! Бургер Бурдж Халифа. 2000г.</p>
+                            </div>
+                            <div class="burgers-item-text">
+                                <h2 class="burger">Бурдж Халифа</h2>
+                                <p class=burger-text>Двухкилограммовый бургер-монстр! Говядина, бекон, чеддер, овощи, американская горчица, соус "BBQ". 2000г</p>
+                                <p class="price">129 zl</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="burgers-item">
+                        <a href="" class="burgers-item-link link">
+                            <div class="burgers-cover-wrap">
+                                <img src="./images/pepp.jpg" alt="Banking App Interface Concept" width="360" height="360">
+                                <p class="burgers-cover-text">Если бы этот горячий парень родился в Мексике, его бы звали Педро Кастильо, но он родился в Украине и его фамилию
+                                ПЕППЕРенко! Этот бургер для тех, кто любит острее. Под верхушкой поджаренной булочки отдыхает после свидания с
+                                горячим грилем сочная, говяжья котлета, вместе с ней ломтики красного, острого перца, кольцо сладкого томата,
+                                маринованные огурцы, обжаренный до золотистого цвета лук. Заправленный ПЕППЕРенко фирменным горчично-перечным соусом,
+                                300г.</p>
+                            </div>
+                            <div class="burgers-item-text">
+                                <h2 class="burger">Бургер ПЕППЕРенко</h2>
+                                <p class=burger-text>Бургер с котлетой из говядины, овощами, заправленный горчично-перечным соусом.</p>
+                                <p class="price">20 zl</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-container-1">
+                <div class="footer-text">
+                    <a href="./index.html" class="logo footer-logo link">Pomodoro</a>
+                    <p class="footer-logo-text">Мы постоянно работаем над тем, чтобы наши бургеры становились все лучше и лучше!</p>
+                </div>
+                <div class="footer-soc">
+                    <p class="footer-title">Соц сети</p>
+                    <ul class="footer-soc-list list">
+                        <li class="footer-soc-item">
+                            <a href="" class="footer-soc-link link" target="_blank" rel="noopener noreferrer">
+                                <svg class="footer-soc-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-instagram-2"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-soc-item">
+                            <a href="" class="footer-soc-link link" target="_blank" rel="noopener noreferrer">
+                                <svg class="footer-soc-icon" width="24" height="24">
+                                    <use href="./images/icons.svg#icon-facebook-1"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="subscribe-container">
+                <p class="footer-title">Оставить отзыв</p>
+                <form class="subscribe-form">
+                    <textarea class="footer-comment" name="user-comment" placeholder="Отзыв"></textarea>
+                    <button class="subscribe-btn" type="submit">
+                        Отправить
+                        <svg class="subscribe-icon" width="24" height="24">
+                            <use href="./images/icons.svg#subscribe"></use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div >
+    </footer>
+    <script src="./js/mobile-menu.js"></script>
+</body>
+</html>
